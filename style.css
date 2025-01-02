@@ -195,7 +195,7 @@ nav {
 /* //////////////////////////////////////////////////////////////////////////////// */
 
 .second_mian_div_parent_of_other_empty_bg {
-    height: 70vh;
+    height: 75vh;
     width: 100%;
     background-image: url(aserts/Online-Quran-Learning\ \(1\).jpg);
     background-attachment: fixed;
@@ -209,8 +209,23 @@ nav {
 .second_mian_div_parent_of_other {
     width: 100%;
     height: 100vh;
-    background-image: url(aserts/for\ second\ div\ for\ quranic\ verses.jpg);
+    background-image: url(aserts/new\ ayat\ pic.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
 }
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////// SECOND MAIN DIV COMPLETE ///////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+.third_mian_div_parent_of_other_empty_bg {
+    height: 75vh;
+    width: 100%;
+    background-image: url(aserts/Online-Quran-Learning\ \(1\).jpg);
+    background-attachment: fixed;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////// THIRD MAIN DIV START ///////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////// */
