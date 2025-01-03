@@ -429,19 +429,18 @@ nav {
 
 .first_mian_div_parent_of_other {
     width: 90%;
-    height: 75%;
+    height: 90%;
 }
 
 .inner_div_first_main_div h1 {
-    font-size: 30px;
+    font-size: 35px;
     text-align: left;
-    margin-bottom: 1rem;
 }
 
 .first_main_div_inner_options {
     height: 6rem;
     width: 6rem;
-    font-size: var(--menu-font-size);
+    font-size: var(--h1-font-size-size);
     font-weight: var(--font-weight-normal);
     margin-bottom: 1rem;
 }
