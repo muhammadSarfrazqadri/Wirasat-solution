@@ -489,11 +489,11 @@ nav {
 
 .third_mian_div_parent_of_other {
     width: 100%;
-    height: 125vh;
-    background-image: url(aserts/hadees\ bg\ wallpaper.png);
+    height: 100vh;
+    background-image: url(aserts/landscape\ hadees.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right top;
+    background-position: left;
 }
 
 /* ////////////////////////////////////////////////////////////////////////////////// */
@@ -503,11 +503,11 @@ nav {
 .contact_div_empty_bg {
     height: 70vh;
     width: 100%;
-    background-image: url(aserts/khulasa\ tul\ faraz\ bg.png);
+    background-image: url(aserts/landscape\ khulasa\ tul\ faraz\ bg.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right;
+    background-position: center;
 }
 
 /* ////////////////////////////////////////////////////////////////////////////////// */
@@ -520,7 +520,7 @@ nav {
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: left;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -529,27 +529,24 @@ nav {
 
 .form_div {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    height: 30em;
-    width: 50em;
+    height: 70%;
+    width: 80%;
     border-radius: 2.5em;
     background-color: rgb(16, 141, 158);
     box-shadow: 1px 1px 5px rgb(24, 24, 24);
 }
 
 .form_div div h1 {
-    font-size: var(--h2-font-size);
-    font-weight: var(--font-weight-bold);
-    font-family: 'Segoe UI' , serif;
-    color: azure;
-    text-decoration: underline;
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-weight-semibold);
 }
 
 .form_div form {
     height: 80%;
-    width: 80%;
+    width: 98%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -558,28 +555,12 @@ nav {
 
 input {
     width: 80%;
-    border: none;
-    border-bottom: 2px solid transparent;
-    background-color: gainsboro;
-    font-size: var(--menu-font-size);
-    color: rgb(0, 68, 255);
-    border-bottom: 2px solid rgb(255, 255, 255);
-    font-family: 'Lucida Sans', serif;
-    border-radius: 1rem;
-    padding: 7px;
-    padding-left: 1rem;
+    font-size: 14px;
 }
 textarea {
     width: 80%;
-    border: none;
-    border-bottom: 2px solid rgb(255, 255, 255);
-    background-color: gainsboro;
-    font-size: var(--h6-font-size);
-    font-family: 'Lucida Sans', serif;
-    color: rgb(0, 68, 255);
-    border-radius: 1em;
-    padding: 7px;
-    padding-left: 1rem;
+    height: 47%;
+    font-size: 14px;
 }
 
 #form_btn {
@@ -588,7 +569,7 @@ textarea {
     background-color: rgb(18, 168, 136);
     box-shadow: 0px 0px 5px black;
     font-size: var(--h6-font-size);
-    font-weight: var(--font-weight-semibold);
+    font-weight: var(--font-weight-normal);
     font-family: Verdana, serif;
     color: rgb(255, 255, 255);
     border-radius: 0.2em;
