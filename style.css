@@ -469,10 +469,10 @@ nav {
 .second_mian_div_parent_of_other {
     width: 100%;
     height: 100vh;
-    background-image: url(aserts/new\ ayat\ pic.png);
+    background-image: url(aserts/landscape-ayat\ bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right;
+    background-position: center;
 }
 
 /* ////////////////////////////////////////////////////////////////////////////////// */
