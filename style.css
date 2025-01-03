@@ -423,8 +423,8 @@ nav {
 /* ////////////////////////////// FIRST MAIN DIV START ///////////////////////////// */
 /* //////////////////////////////////////////////////////////////////////////////// */
 #first_mian_div {
-    height: 80vh;
-    background-position: right;
+    height: 78vh;
+    background-position:calc(100% - -5rem) center;
 }
 
 .first_mian_div_parent_of_other {
@@ -452,7 +452,7 @@ nav {
 /* //////////////////////////////////////////////////////////////////////////////// */
 
 .second_mian_div_parent_of_other_empty_bg {
-    height: 70vh;
+    height: 50vh;
     width: 100%;
     background-image: url(aserts/Online-Quran-Learning\ \(1\).jpg);
     background-attachment: fixed;
