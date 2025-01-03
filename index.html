@@ -14,18 +14,24 @@
 </head>
 
 <body>
-    <div class="main_body_div">
+    <div id="home_page" class="main_body_div">
         <div class="big_5_divs">
             <nav>
-                <div class="nav_main_3_divs" id="logo"><a href="index.html"><img src="aserts/wirasat logo.png"
-                            alt="Wirasat pic logo"></a></div>
+                <div class="nav_main_3_divs" id="logo">
+                    <a href="index.html"><img src="aserts/wirasat logo.png" alt="Wirasat pic logo"></a>
+                </div>
                 <div class="nav_main_3_divs" id="nav_options">
-                    <div class="nav_item"><a href="">Home</a></div>
+                    <div class="nav_item"><a href="#home_page">Home</a></div>
                     <div class="nav_item"><a href="">Rules of Inheritance</a></div>
                     <div class="nav_item"><a href="">Contact Us</a></div>
-                    <div class="nav_item"><a href="">About Us</a></div>
+                    <div class="nav_item"><a href="about.html">About Us</a></div>
                 </div>
                 <div class="nav_main_3_divs" id="nav_language_button"><button type="button">Urdu</button></div>
+                <div class="truggle_button">
+                    <div class="truggle_button_lines" id="truggle_button_line_1"></div>
+                    <div class="truggle_button_lines" id="truggle_button_line_2"></div>
+                    <div class="truggle_button_lines" id="truggle_button_line_3"></div>
+                </div>
             </nav>
         </div>
         <div class="big_5_divs" id="first_mian_div">
@@ -47,26 +53,34 @@
                         <div class="first_main_div_inner_options">solve your Inheritance</div>
                     </a>
                     <a href="">
-                        <div class="first_main_div_inner_options">list of inheritor</div>
+                        <div class="first_main_div_inner_options">list of inheritors</div>
                     </a>
                 </div>
             </div>
         </div>
-        <div class="big_5_divs"><div class="second_mian_div_parent_of_other_empty_bg"></div></div>
+        <div class="big_5_divs">
+            <div class="second_mian_div_parent_of_other_empty_bg"></div>
+        </div>
         <div class="big_5_divs">
             <div class="second_mian_div_parent_of_other"></div>
         </div>
-        <div class="big_5_divs"><div class="third_mian_div_parent_of_other_empty_bg"></div></div>
+        <div class="big_5_divs">
+            <div class="third_mian_div_parent_of_other_empty_bg"></div>
+        </div>
         <div class="big_5_divs">
             <div class="third_mian_div_parent_of_other"></div>
         </div>
-        <div class="big_5_divs"><div class="contact_div_empty_bg"></div></div>
+        <div class="big_5_divs">
+            <div class="contact_div_empty_bg"></div>
+        </div>
         <div class="big_5_divs">
             <div class="contact_main_div">
                 <div class="form_div">
-                    <div><h1>Contact Us</h1></div>
-                    <form action="" >
-                        <input  onfocus="" id="name_input" placeholder="Name" required type="text">
+                    <div>
+                        <h1>Contact Us</h1>
+                    </div>
+                    <form action="">
+                        <input onfocus="" id="name_input" placeholder="Name" required type="text">
                         <input id="contact_input" placeholder="Email" required type="email">
                         <input id="contact_input" placeholder="Phone" required type="tel">
                         <textarea name="" id="text_area_input" placeholder="Message" rows="5"></textarea>
