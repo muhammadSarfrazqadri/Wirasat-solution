@@ -375,7 +375,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 3em;
+    height: 3.5rem;
     justify-content: space-between;
 }
 
@@ -480,12 +480,7 @@ nav {
 
 .third_mian_div_parent_of_other_empty_bg {
     height: 70vh;
-    width: 100%;
-    background-image: url(aserts/hdesh\ book\ wallpaper.jpeg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
+    background-position: left;
 }
 
 /* ////////////////////////////////////////////////////////////////////////////////// */
